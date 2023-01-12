@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    background-color: #F3F1FF;
+    max-width: 1440px;
+}
+a{
+    text-decoration: none;
+}
+
+/* Common CSS  */
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.sec-title{
+    color: #562EFF;
+    font-size: 24px;
+}
+
+/* Header CSS  */
+.header-area{
+    background-color: #562EFF;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img{
+    width: 40px;
+    height: 50px;
+    margin-right: 15px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-left: 15px;
+}
+.menu ul li a{
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+/* Top Player and Blogs */
+.top-players-blog{
+    margin: 38px 0;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 10px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 35px 0;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+    margin-right: 15px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+    margin-right: 20px;
+}
+.blog-title{
+    margin: 38px 0;
+}
